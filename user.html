@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="header">
+        <p class="kafene">Kafene</p>
+        <a href="orders.html" class="order">Orders</a>
+        <a href="product.html" class="product">Products</a>
+        <a href="user.html" class="user">Users</a>
+        <a href="index.html" class="logout" onclick="gotohomepage()">Logout</a>
+    </div>
+    <div class="userlisting">
+        <h1>Users</h1>
+       <input type="text" id="entertext" placeholder="Search by Name">
+       <button onclick="cleardata()">Reset</button>
+    </div>
+    <div class="productdetails">
+        <table style="width: 100%;" id="ordersTable" >
+            <tr>
+                <th>ID</th>
+                <th>User Avatar</th>
+                <th>Full Name</th>
+                <th>DoB</th>
+                <th>Gender</th>
+                <th>Current Location</th>
+            </tr>
+
+        </table>
+    </div>
+    <script src="user.js"></script>
+</body>
+</html>

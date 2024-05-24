@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    box-shadow: 0 2px 2px #ccc;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    box-sizing:40px;
+    padding: 0px 48px;
+}
+
+.kafene{
+color:rgba(0,0,0,0.8);
+font:24px Poppins,sans-serif;
+font-weight: 500;
+width:120px;
+}
+
+.order{
+    color:rgba(0,0,0,0.8);
+font:14px Poppins,sans-serif;
+font-weight: 500;
+margin:0px 10px;
+padding:24px 0px 16px;
+text-decoration: none;
+
+}
+.product{
+    color:rgba(0,0,0,0.8);
+font:14px Poppins,sans-serif;
+font-weight: 500;
+font-style:normal;
+margin:0px 10px;
+padding:24px 0px 16px;
+text-decoration: none;
+}
+
+.user{
+    color:#000000CC;
+    font:14px Poppins,sans-serif;
+    font-weight: 500;
+    margin:0px 10px;
+padding:24px 0px 16px;
+text-decoration: none;
+}
+
+.login-form {
+    text-align: center;
+    width:450px;
+    height:250px;
+    box-shadow: 1px 1px 4px 4px #ccc;
+    margin-top:130px;
+    margin-left:35%;
+    border-radius: 4px;
+    padding:32px;
+  }
+
+  h1{
+    width:100px;
+    color:black;
+    font-size:32px;
+    font-family: Poppins,sans-serif;
+    font-weight:500;
+    margin-right:80%;
+    margin-top:0px;
+     }
+
+     form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      label {
+        margin-top: 10px;
+      }
+      input {
+        border: none;
+        border-bottom: 3px solid #ccc;
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 450px;
+        margin-left: 0%;
+        margin-top:10px;
+        font:14px Poppins,sans-serif;
+      }
+
+      button {
+        padding: 10px;
+        cursor: pointer;
+        width:450px;
+        height:50px;
+        border-radius: 40px;
+        border:none;
+        color:white;
+        background-color: #20B883;
+        margin-top:15px;
+        margin-right:0px;
+        font:14px Poppins,sans-serif;
+      }
